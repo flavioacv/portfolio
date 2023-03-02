@@ -417,7 +417,7 @@ class PortfolioDesktop extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.only(left: 10.w),
                           child: CommonText(
-                            text: 'Projects',
+                            text: 'Experiences & Projects',
                             fontSize: 20.p,
                             fontWeight: FontWeight.bold,
                           ),
@@ -432,18 +432,34 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 300.h,
+                              height: 400.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
-                                padding: EdgeInsets.only(left: 5.w, top: 20.h),
+                                padding: EdgeInsets.only(
+                                    left: 5.w, top: 22.h, right: 5.w),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Image.asset(
+                                      'assets/images/portfolio.png',
+                                      height: 300,
+                                      width: CommonMediaQuery.width(
+                                        context,
+                                      ),
+                                    ),
+                                    SizedBox(height: 30.h),
                                     CommonText(
-                                      text: 'Post 1',
-                                      fontSize: 20.p,
+                                      text: 'Portfolio - Flutter Web',
+                                      fontSize: 16.p,
                                       fontWeight: FontWeight.bold,
+                                    ),
+                                    SizedBox(height: 10.h),
+                                    CommonText(
+                                      text:
+                                          "This project was created using Flutter Web and followed the best development practices to ensure a solid structure. The goal is to add this work to my personal portfolio, demonstrating my skills and experience in development.",
+                                      fontSize: 10.p,
+                                      fontWeight: FontWeight.w400,
                                     ),
                                   ],
                                 ),
@@ -453,18 +469,35 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 300.h,
+                              height: 400.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
-                                padding: EdgeInsets.only(left: 5.w, top: 20.h),
+                                padding: EdgeInsets.only(
+                                    left: 5.w, top: 22.h, right: 5.w),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Image.asset(
+                                      'assets/images/xipp.png',
+                                      height: 300,
+                                      width: CommonMediaQuery.width(
+                                        context,
+                                      ),
+                                    ),
+                                    SizedBox(height: 30.h),
                                     CommonText(
-                                      text: 'Post 2',
-                                      fontSize: 20.p,
+                                      text:
+                                          'Xipp Seguros - Mobile Developer (Flutter)',
+                                      fontSize: 16.p,
                                       fontWeight: FontWeight.bold,
+                                    ),
+                                    SizedBox(height: 10.h),
+                                    CommonText(
+                                      text:
+                                          "At Xipp Seguros, I had the opportunity to create applications from conception to the end of the development cycle, applying best programming practices, including clean architecture, MVVM pattern, among others.",
+                                      fontSize: 10.p,
+                                      fontWeight: FontWeight.w400,
                                     ),
                                   ],
                                 ),
@@ -474,18 +507,35 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 300.h,
+                              height: 400.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
-                                padding: EdgeInsets.only(left: 5.w, top: 20.h),
+                                padding: EdgeInsets.only(
+                                    left: 5.w, top: 22.h, right: 5.w),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Image.asset(
+                                      'assets/images/havan.png',
+                                      height: 300,
+                                      width: CommonMediaQuery.width(
+                                        context,
+                                      ),
+                                    ),
+                                    SizedBox(height: 30.h),
                                     CommonText(
-                                      text: 'Post 3',
-                                      fontSize: 20.p,
+                                      text:
+                                          'Havan Labs - Mobile Developer (Kotlin)',
+                                      fontSize: 16.p,
                                       fontWeight: FontWeight.bold,
+                                    ),
+                                    SizedBox(height: 10.h),
+                                    CommonText(
+                                      text:
+                                          "I had the opportunity to work at one of Brazil's largest retailers, Havan. I worked in the technology sector at the company's headquarters, using the Kotlin language for app development. During my work, I updated an old app, adding new features and improving the user experience.",
+                                      fontSize: 10.p,
+                                      fontWeight: FontWeight.w400,
                                     ),
                                   ],
                                 ),
@@ -495,18 +545,34 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 300.h,
+                              height: 400.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
-                                padding: EdgeInsets.only(left: 5.w, top: 20.h),
+                                padding: EdgeInsets.only(
+                                    left: 5.w, top: 22.h, right: 5.w),
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
+                                    Image.asset(
+                                      'assets/images/inova.png',
+                                      height: 300,
+                                      width: CommonMediaQuery.width(
+                                        context,
+                                      ),
+                                    ),
+                                    SizedBox(height: 30.h),
                                     CommonText(
-                                      text: 'Post 4',
-                                      fontSize: 20.p,
+                                      text: 'Aceleradora Inova Unigran - FullStack ',
+                                      fontSize: 16.p,
                                       fontWeight: FontWeight.bold,
+                                    ),
+                                    SizedBox(height: 10.h),
+                                    CommonText(
+                                      text:
+                                          "I was hired to work at the accelerator of the college where I studied, where I was able to help boost local and nationwide startups. At the company, I worked as a FullStack developer and started my career in mobile development with Flutter.",
+                                      fontSize: 10.p,
+                                      fontWeight: FontWeight.w400,
                                     ),
                                   ],
                                 ),
