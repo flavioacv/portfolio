@@ -24,7 +24,8 @@ class PortfolioDesktop extends StatelessWidget {
       backgroundColor: AppColors.instance.black,
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.only(left: 5.w, top: 25.h, right: 5.w),
+          padding:
+              EdgeInsets.only(left: 5.w, top: 25.h, right: 5.w, bottom: 25.h),
           child: SingleChildScrollView(
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -111,15 +112,15 @@ class PortfolioDesktop extends StatelessWidget {
                     ),
                     SizedBox(height: 30.h),
                     CommonCardWidget(
-                      height: 200.h,
                       width: CommonMediaQuery.width(context, percent: 0.3),
                       children: Padding(
-                        padding: EdgeInsets.only(left: 5.w, top: 20.h),
+                        padding: EdgeInsets.only(
+                            left: 6.w, top: 20.h, right: 5.w, bottom: 20.h),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             CommonText(
-                              text: 'Habilidades',
+                              text: 'Skills',
                               fontSize: 20.p,
                               fontWeight: FontWeight.bold,
                             ),
@@ -127,19 +128,19 @@ class PortfolioDesktop extends StatelessWidget {
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               child: Wrap(
-                                spacing: 5.w,
+                                spacing: 6.w,
                                 children: [
                                   Padding(
                                     padding: EdgeInsets.only(top: 20.h),
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 5.w,
+                                            width: 25,
                                             child: Image.asset(
                                                 "assets/logos/dart.png",
                                                 fit: BoxFit.fill),
@@ -159,12 +160,12 @@ class PortfolioDesktop extends StatelessWidget {
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 4.w,
+                                            width: 20,
                                             child: Image.asset(
                                                 "assets/logos/flutter.png",
                                                 fit: BoxFit.fill),
@@ -184,12 +185,12 @@ class PortfolioDesktop extends StatelessWidget {
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 8.w,
+                                            width: 35,
                                             child: Image.asset(
                                                 "assets/logos/firebase.png",
                                                 fit: BoxFit.fill),
@@ -208,19 +209,19 @@ class PortfolioDesktop extends StatelessWidget {
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 5.w,
+                                            width: 20,
                                             child: Image.asset(
-                                                "assets/logos/javascript.png",
+                                                "assets/logos/kotlin.png",
                                                 fit: BoxFit.fill),
                                           ),
                                           SizedBox(width: 2.5.w),
                                           CommonText(
-                                            text: 'JavaScript',
+                                            text: 'Kotlin',
                                             fontSize: 12.p,
                                             fontWeight: FontWeight.w500,
                                           ),
@@ -233,12 +234,12 @@ class PortfolioDesktop extends StatelessWidget {
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 5.w,
+                                            width: 25,
                                             child: Image.asset(
                                                 "assets/logos/vue.png",
                                                 fit: BoxFit.fill),
@@ -258,12 +259,37 @@ class PortfolioDesktop extends StatelessWidget {
                                     child: CommonCardWidget(
                                       backgroundColor: AppColors.instance.black,
                                       height: 30.h,
-                                      width: 30.w,
+                                      width: 150,
                                       children: Row(
                                         children: [
                                           SizedBox(width: 2.w),
                                           SizedBox(
-                                            width: 5.w,
+                                            width: 25,
+                                            child: Image.asset(
+                                                "assets/logos/javascript.png",
+                                                fit: BoxFit.fill),
+                                          ),
+                                          SizedBox(width: 2.5.w),
+                                          CommonText(
+                                            text: 'JavaScript',
+                                            fontSize: 12.p,
+                                            fontWeight: FontWeight.w500,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Padding(
+                                    padding: EdgeInsets.only(top: 20.h),
+                                    child: CommonCardWidget(
+                                      backgroundColor: AppColors.instance.black,
+                                      height: 30.h,
+                                      width: 150,
+                                      children: Row(
+                                        children: [
+                                          SizedBox(width: 2.5.w),
+                                          SizedBox(
+                                            width: 25,
                                             child: Image.asset(
                                                 "assets/logos/git.png",
                                                 fit: BoxFit.fill),
@@ -287,7 +313,6 @@ class PortfolioDesktop extends StatelessWidget {
                     ),
                     SizedBox(height: 30.h),
                     CommonCardWidget(
-                      height: 300.h,
                       width: CommonMediaQuery.width(context, percent: 0.3),
                       children: Padding(
                         padding: EdgeInsets.only(left: 5.w, top: 20.h),
@@ -295,10 +320,85 @@ class PortfolioDesktop extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             CommonText(
-                              text: 'Cursos',
+                              text: 'Education',
                               fontSize: 20.p,
                               fontWeight: FontWeight.bold,
                             ),
+                            SizedBox(height: 30.h),
+                            CommonText(
+                              text: 'Software Engineer ',
+                              fontSize: 15.p,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            SizedBox(height: 10.h),
+                            CommonText(
+                              text: 'UNIGRAN in Dourados / MS - Brazil.',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w500,
+                            ),
+                            CommonText(
+                              text: 'Jan 2016 - Dez 2019',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w400,
+                            ),
+                            SizedBox(height: 30.h),
+                            CommonText(
+                              text: 'Industrial Automation Technician',
+                              fontSize: 15.p,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            SizedBox(height: 10.h),
+                            CommonText(
+                              text: 'SENAI in Dourados / MS - Brazil.',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w500,
+                            ),
+                            CommonText(
+                              text: '2012 - 2015',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w400,
+                            ),
+                            SizedBox(height: 30.h),
+                            CommonText(
+                              text: 'Courses',
+                              fontSize: 20.p,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            SizedBox(height: 30.h),
+                            CommonText(
+                              text: 'Flutter. Beginner',
+                              fontSize: 15.p,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            SizedBox(height: 10.h),
+                            CommonText(
+                              text: 'Flutterando',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w500,
+                            ),
+                            CommonText(
+                              text: '2022',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w400,
+                            ),
+                            SizedBox(height: 30.h),
+                            CommonText(
+                              text: 'Programming Logic with Dart',
+                              fontSize: 15.p,
+                              fontWeight: FontWeight.bold,
+                            ),
+                            SizedBox(height: 10.h),
+                            CommonText(
+                              text: 'Flutterando',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w500,
+                            ),
+                            CommonText(
+                              text: '2022',
+                              fontSize: 12.p,
+                              fontWeight: FontWeight.w400,
+                            ),
+                            SizedBox(height: 30.h),
                           ],
                         ),
                       ),
@@ -317,7 +417,7 @@ class PortfolioDesktop extends StatelessWidget {
                         child: Padding(
                           padding: EdgeInsets.only(left: 10.w),
                           child: CommonText(
-                            text: 'Projetos',
+                            text: 'Projects',
                             fontSize: 20.p,
                             fontWeight: FontWeight.bold,
                           ),
