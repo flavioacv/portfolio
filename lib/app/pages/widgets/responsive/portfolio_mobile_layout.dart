@@ -444,6 +444,8 @@ class PortfolioMobile extends StatelessWidget {
                         child: CommonCardWidget(
                           height: 550.h,
                           width: CommonMediaQuery.width(context),
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(15)),
                           children: Padding(
                             padding: EdgeInsets.only(
                                 left: 5.w, top: 22.h, right: 5.w),
@@ -478,6 +480,8 @@ class PortfolioMobile extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: 30.h),
                         child: CommonCardWidget(
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(15)),
                           height: 550.h,
                           width: CommonMediaQuery.width(context),
                           children: Padding(
@@ -517,6 +521,8 @@ class PortfolioMobile extends StatelessWidget {
                         child: CommonCardWidget(
                           height: 550.h,
                           width: CommonMediaQuery.width(context),
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(15)),
                           children: Padding(
                             padding: EdgeInsets.only(
                                 left: 5.w, top: 22.h, right: 5.w),
@@ -552,6 +558,8 @@ class PortfolioMobile extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: 30.h),
                         child: CommonCardWidget(
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(15)),
                           height: 550.h,
                           width: CommonMediaQuery.width(context),
                           children: Padding(
