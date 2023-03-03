@@ -125,186 +125,193 @@ class PortfolioDesktop extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                             ),
                             SizedBox(
-                              width:
-                                  CommonMediaQuery.width(context, percent: 0.3),
-                              child: Wrap(
-                                spacing: 6.w,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 25,
-                                            child: Image.asset(
-                                                "assets/logos/dart.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.6.w),
-                                          CommonText(
-                                            text: 'Dart',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                              child: Center(
+                                child: Wrap(
+                                  spacing: 6.w,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 25,
+                                              child: Image.asset(
+                                                  "assets/logos/dart.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.6.w),
+                                            CommonText(
+                                              text: 'Dart',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 20,
-                                            child: Image.asset(
-                                                "assets/logos/flutter.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.5.w),
-                                          CommonText(
-                                            text: 'Flutter',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 20,
+                                              child: Image.asset(
+                                                  "assets/logos/flutter.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.5.w),
+                                            CommonText(
+                                              text: 'Flutter',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 35,
-                                            child: Image.asset(
-                                                "assets/logos/firebase.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          CommonText(
-                                            text: 'Firebase',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 35,
+                                              child: Image.asset(
+                                                  "assets/logos/firebase.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            CommonText(
+                                              text: 'Firebase',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 20,
-                                            child: Image.asset(
-                                                "assets/logos/kotlin.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.5.w),
-                                          CommonText(
-                                            text: 'Kotlin',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 20,
+                                              child: Image.asset(
+                                                  "assets/logos/kotlin.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.5.w),
+                                            CommonText(
+                                              text: 'Kotlin',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 25,
-                                            child: Image.asset(
-                                                "assets/logos/vue.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.5.w),
-                                          CommonText(
-                                            text: 'Vue.js',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 25,
+                                              child: Image.asset(
+                                                  "assets/logos/vue.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.5.w),
+                                            CommonText(
+                                              text: 'Vue.js',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.w),
-                                          SizedBox(
-                                            width: 25,
-                                            child: Image.asset(
-                                                "assets/logos/javascript.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.5.w),
-                                          CommonText(
-                                            text: 'JavaScript',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.w),
+                                            SizedBox(
+                                              width: 25,
+                                              child: Image.asset(
+                                                  "assets/logos/javascript.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.5.w),
+                                            CommonText(
+                                              text: 'JavaScript',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 20.h),
-                                    child: CommonCardWidget(
-                                      backgroundColor: AppColors.instance.black,
-                                      height: 30.h,
-                                      width: 150,
-                                      children: Row(
-                                        children: [
-                                          SizedBox(width: 2.5.w),
-                                          SizedBox(
-                                            width: 25,
-                                            child: Image.asset(
-                                                "assets/logos/git.png",
-                                                fit: BoxFit.fill),
-                                          ),
-                                          SizedBox(width: 2.5.w),
-                                          CommonText(
-                                            text: 'Git',
-                                            fontSize: 12.p,
-                                            fontWeight: FontWeight.w500,
-                                          ),
-                                        ],
+                                    Padding(
+                                      padding: EdgeInsets.only(top: 20.h),
+                                      child: CommonCardWidget(
+                                        backgroundColor:
+                                            AppColors.instance.black,
+                                        height: 30.h,
+                                        width: 150,
+                                        children: Row(
+                                          children: [
+                                            SizedBox(width: 2.5.w),
+                                            SizedBox(
+                                              width: 25,
+                                              child: Image.asset(
+                                                  "assets/logos/git.png",
+                                                  fit: BoxFit.fill),
+                                            ),
+                                            SizedBox(width: 2.5.w),
+                                            CommonText(
+                                              text: 'Git',
+                                              fontSize: 12.p,
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ),
                           ],
@@ -432,7 +439,7 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 400.h,
+                              height: 420.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
@@ -469,7 +476,7 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 400.h,
+                              height: 420.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
@@ -507,7 +514,7 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 400.h,
+                              height: 420.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
@@ -545,7 +552,7 @@ class PortfolioDesktop extends StatelessWidget {
                           Padding(
                             padding: EdgeInsets.only(top: 30.h),
                             child: CommonCardWidget(
-                              height: 400.h,
+                              height: 420.h,
                               width:
                                   CommonMediaQuery.width(context, percent: 0.3),
                               children: Padding(
@@ -563,7 +570,8 @@ class PortfolioDesktop extends StatelessWidget {
                                     ),
                                     SizedBox(height: 30.h),
                                     CommonText(
-                                      text: 'Aceleradora Inova Unigran - FullStack ',
+                                      text:
+                                          'Aceleradora Inova Unigran - FullStack ',
                                       fontSize: 16.p,
                                       fontWeight: FontWeight.bold,
                                     ),
